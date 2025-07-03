@@ -99,7 +99,7 @@ if (contactForm) {
 // Newsletter form handling
 const newsletterForm = document.querySelector('.newsletter-form');
 if (newsletterForm) {
-    newsletterForm.addEventListener('submit', function(e) {
+    newsletterForm.addEventListener('kirim', function(e) {
         e.preventDefault();
         
         const email = this.querySelector('input[type="email"]').value;
